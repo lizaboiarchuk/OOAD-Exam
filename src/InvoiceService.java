@@ -65,6 +65,7 @@ public class InvoiceService {
         }
     }
 
+
     private void blockUserIfRequired(User user, Date date) {
         int unpaidBills = 0;
         Calendar calendar = Calendar.getInstance();
